@@ -1,58 +1,37 @@
 {
-  "name": "vue-jamstack-10-2024-04-23-15",
-  "bucket": "vue-jamstack-10-2024-04-23-15",
-  "preset": "vue",
+  "name": "vue-jamstack-10-20240423171109",
+  "bucket": "vue-jamstack-10-20240423171109",
+  "template": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240423191216",
-  "not-first-run": true,
+  "prefix": "20240423201204",
   "function": {
-    "id": 20625,
+    "id": 45984,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 20267,
+    "instance-id": 50361,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713899044,
+    "id": 1713904511,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713897721,
+    "id": 1713901630,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
-  "origin": [
-    {
-      "origin-id": 126887,
-      "origin-key": "88be190b-05d9-4a2c-8b45-132a32126dc9",
-      "name": "vue-jamstack-10-2024-04-23-15_single"
-    },
-    {
-      "origin-id": 126888,
-      "origin-key": "e7513bd1-54a8-4fa3-b8b4-a50dfe745b14",
-      "name": "origin-storage-default"
-    }
-  ],
-  "rules-engine": {
-    "created": false,
-    "rules": [
-      {
-        "id": 237806,
-        "name": "Main_Rule"
-      },
-      {
-        "id": 237807,
-        "name": "Index_Rewrite_1"
-      },
-      {
-        "id": 237808,
-        "name": "Index_Rewrite_2"
-      }
-    ]
+  "origin": {
+    "single-origin-id": 0,
+    "storage-origin-id": 0,
+    "storage-origin-key": "",
+    "name": "__DEFAULT__",
+    "address": null
   },
-  "cache-settings": null
+  "rules-engine": {
+    "created": true
+  }
 }
