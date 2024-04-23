@@ -1,37 +1,58 @@
 {
-  "name": "HendrikTeste26",
-  "bucket": "HendrikTeste26",
-  "template": "vue",
+  "name": "vue-jamstack-10",
+  "bucket": "vue-jamstack-10",
+  "preset": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240423132037",
+  "prefix": "20240423174947",
+  "not-first-run": true,
   "function": {
-    "id": 45968,
+    "id": 20599,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 50345,
+    "instance-id": 20241,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713874463,
+    "id": 1713898975,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713871605,
+    "id": 1713897650,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
-  "origin": {
-    "single-origin-id": 0,
-    "storage-origin-id": 0,
-    "storage-origin-key": "",
-    "name": "__DEFAULT__",
-    "address": null
-  },
+  "origin": [
+    {
+      "origin-id": 126797,
+      "origin-key": "31285302-a67b-4bd3-af18-b44b8f5e39dd",
+      "name": "vue-jamstack-10_single"
+    },
+    {
+      "origin-id": 126799,
+      "origin-key": "dcb59c12-5e5c-47ca-aac9-e07202568efc",
+      "name": "origin-storage-default"
+    }
+  ],
   "rules-engine": {
-    "created": true
-  }
+    "created": false,
+    "rules": [
+      {
+        "id": 237608,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 237609,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 237610,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
 }
